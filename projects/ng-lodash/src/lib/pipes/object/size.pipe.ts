@@ -5,7 +5,7 @@ import * as _ from 'lodash';
   name: '_size'
 })
 export class SizePipe implements PipeTransform {
-  public transform(collection: object | string): number {
+  public transform(collection: object | string | null | undefined): number {
     return _.size(collection);
   }
 }

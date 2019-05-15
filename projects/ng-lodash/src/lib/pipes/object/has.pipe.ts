@@ -5,7 +5,7 @@ import * as _ from 'lodash';
   name: '_has'
 })
 export class HasPipe implements PipeTransform {
-  public transform(object: any, path: string): boolean {
+  public transform<T>(object: T, path: _.PropertyPath): boolean {
     return _.has(object, path);
   }
 }

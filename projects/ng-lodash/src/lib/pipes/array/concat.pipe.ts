@@ -5,7 +5,10 @@ import * as _ from 'lodash';
   name: '_concat'
 })
 export class ConcatPipe implements PipeTransform {
-  public transform(value: any[], ...args): any {
-    return _.concat(value, ...args);
+  public transform<T>(
+    array: T | ReadonlyArray<T>,
+    ...values: Array<T | ReadonlyArray<T>>
+  ): T[] {
+    return _.concat(array, ...values);
   }
 }

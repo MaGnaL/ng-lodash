@@ -5,7 +5,10 @@ import * as _ from 'lodash';
   name: '_difference'
 })
 export class DifferencePipe implements PipeTransform {
-  public transform(value: any[], ...arr: any[]): any[] {
-    return _.difference(value, ...arr);
+  public transform<T>(
+    array: ArrayLike<T> | null | undefined,
+    ...values: Array<ArrayLike<T>>
+  ): T[] {
+    return _.difference(array, ...values);
   }
 }

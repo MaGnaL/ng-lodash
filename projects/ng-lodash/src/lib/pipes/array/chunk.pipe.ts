@@ -5,7 +5,10 @@ import * as _ from 'lodash';
   name: '_chunk'
 })
 export class ChunkPipe implements PipeTransform {
-  public transform(value: any[], size?: number): any[] {
-    return _.chunk(value, size);
+  public transform<T>(
+    array: ArrayLike<T> | null | undefined,
+    size?: number
+  ): T[][] {
+    return _.chunk(array, size);
   }
 }

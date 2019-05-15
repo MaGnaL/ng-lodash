@@ -5,7 +5,9 @@ import * as _ from 'lodash';
   name: '_compact'
 })
 export class CompactPipe implements PipeTransform {
-  public transform(value: any[]): any[] {
-    return _.compact(value);
+  public transform<T>(
+    array: ArrayLike<T | null | undefined | false | '' | 0> | null | undefined
+  ): T[] {
+    return _.compact(array);
   }
 }
