@@ -1,27 +1,39 @@
-# NgLodash
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+# ng-lodash
 
-## Development server
+`ng-lodash` is a Angular library which provides pipes for lodash functions.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## 🚀 Setting Up
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Install
 
-## Build
+```npm
+npm install @magnal/ng-lodash 
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Import
 
-## Running unit tests
+```angular2
+import {NgLodashModule} from '@magnal/ng-lodash';
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+  imports: [
+    NgLodashModule
+  ]
+})
+export class FooModule {}
+```
 
-## Running end-to-end tests
+## ⚙ Usage
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+When the module is imported, all pipes can be used like every other pipe in Angular.
 
-## Further help
+When you follow the recommendation of [angular.io](https://angular.io/guide/ngmodule-faq#sharedmodule) regarding the use of a `SharedModule` you can also import and re-export it there. Adding it to your own shared component library is of course also possible.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Pipes
+
+Not every lodash function has what it takes to become a Angular pipe. The following functions are implemented so far.
+
+You miss a lodash function here? Feel free to create an issue for that. ❤
