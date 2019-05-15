@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve ng-lodash-demo",
     "build": "ng build",
     "build:watch": "npm run build -- --watch",
+    "build+pack": "npm run build && npm pack",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
