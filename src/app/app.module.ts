@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import {NgLodashModule} from '@magnal/ng-lodash';
+import {AppComponent} from './app.component';
+import {NgLodashModule} from '../../projects/ng-lodash/src/lib/ng-lodash.module';
 
 @NgModule({
   declarations: [
@@ -15,4 +15,5 @@ import {NgLodashModule} from '@magnal/ng-lodash';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
