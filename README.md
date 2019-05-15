@@ -4,13 +4,12 @@
 
 `ng-lodash` is a Angular library which provides pipes for lodash functions.
 
-
 ## 🚀 Setting Up
 
 ### Install
 
 ```npm
-npm install @magnal/ng-lodash 
+npm install @magnal/ng-lodash
 ```
 
 ### Import
@@ -35,5 +34,22 @@ When you follow the recommendation of [angular.io](https://angular.io/guide/ngmo
 ### Pipes
 
 Not every lodash function has what it takes to become a Angular pipe. The following functions are implemented so far.
+
+#### Array
+
+| lodash function | pipe name     |
+| --------------- | ------------- |
+| `_.chunk`       | `_chunk`      |
+| `_.compact`     | `_compact`    |
+| `_.concat`      | `_concat`     |
+| `_.difference`  | `_difference` |
+
+#### Object
+
+| lodash function | pipe name |
+| --------------- | --------- |
+| `_.get`         | `_get`    |
+| `_.has`         | `_has`    |
+| `_.set`         | `_set`    |
 
 You miss a lodash function here? Feel free to create an issue for that. ❤
