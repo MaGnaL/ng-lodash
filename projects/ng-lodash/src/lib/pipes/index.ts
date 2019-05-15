@@ -1,3 +1,2 @@
-export * from './get.pipe';
-export * from './has.pipe';
-export * from './size.pipe';
+export * from './array';
+export * from './object';

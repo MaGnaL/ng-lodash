@@ -1,11 +1,5 @@
-import {NgModule, PipeTransform, Type} from '@angular/core';
-import {GetPipe, HasPipe, SizePipe} from './pipes';
-
-const PIPES: Type<PipeTransform>[] = [
-  HasPipe,
-  GetPipe,
-  SizePipe
-];
+import {NgModule} from '@angular/core';
+import {PIPES} from './pipes/pipes';
 
 @NgModule({
   declarations: [...PIPES],
