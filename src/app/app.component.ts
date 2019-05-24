@@ -5,9 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  public test: object = {
-    foo: 123,
-    bar: 345
-  };
-}
+export class AppComponent {}
