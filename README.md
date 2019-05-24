@@ -37,12 +37,31 @@ Not every lodash function has what it takes to become a Angular pipe. The follow
 
 #### Array
 
-| lodash function | pipe name     |
-| --------------- | ------------- |
-| `_.chunk`       | `_chunk`      |
-| `_.compact`     | `_compact`    |
-| `_.concat`      | `_concat`     |
-| `_.difference`  | `_difference` |
+| lodash function  | pipe name       |
+| ---------------- | --------------- |
+| `_.chunk`        | `_chunk`        |
+| `_.compact`      | `_compact`      |
+| `_.concat`       | `_concat`       |
+| `_.difference`   | `_difference`   |
+| `_.drop`         | `_drop`         |
+| `_.dropRight`    | `_dropRight`    |
+| `_.fill`         | `_fill`         |
+| `_.first`        | `_first`        |
+| `_.flatten`      | `_flatten`      |
+| `_.flattenDeep`  | `_flattenDeep`  |
+| `_.flattenDepth` | `_flattenDepth` |
+| `_.fromPairs`    | `_fromPairs`    |
+| `_.head`         | `_head`         |
+| `_.indexOf`      | `_indexOf`      |
+| `_.initial`      | `_initial`      |
+| `_.intersection` | `_intersection` |
+| `_.join`         | `_join`         |
+| `_.last`         | `_last`         |
+| `_.lastIndexOf`  | `_lastIndexOf`  |
+| `_.nth`          | `_nth`          |
+| `_.pull`         | `_pull`         |
+| `_.pullAll`      | `_pullAll`      |
+| `_.pullAt`       | `_pullAt`       |
 
 #### Object
 
