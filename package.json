@@ -1,13 +1,23 @@
 {
   "name": "@magnal/ng-lodash-demo",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": {
+    "name": "Manuel Lang",
+    "email": "code@manuellang.dev",
+    "url": "http://manuellang.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaGnaL/ng-lodash.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve ng-lodash-demo",
     "build": "ng build",
     "build:watch": "npm run build -- --watch",
     "build+pack": "npm run build && npm pack",
-    "format": "prettier --config .prettierrc \"**/*.{ts, html, scss}\"",
+    "format": "prettier --config .prettierrc \"**/*.{ts, html, scss, md}\"",
     "format:check": "npm run format -- --check",
     "format:write": "npm run format -- --write",
     "format:delta": "pretty-quick",
