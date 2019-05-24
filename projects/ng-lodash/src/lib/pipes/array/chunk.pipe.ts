@@ -6,7 +6,7 @@ import * as _ from 'lodash';
 })
 export class ChunkPipe implements PipeTransform {
   public transform<T>(
-    array: ArrayLike<T> | null | undefined,
+    array: _.List<T> | null | undefined,
     size?: number
   ): T[][] {
     return _.chunk(array, size);
