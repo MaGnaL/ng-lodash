@@ -39,6 +39,7 @@ import { WithoutPipe } from './without.pipe';
 import { ZipPipe } from './zip.pipe';
 import { ZipObjectPipe } from './zip-object.pipe';
 import { ZipObjectDeepPipe } from './zip-object-deep.pipe';
+import { XorPipe } from './xor.pipe';
 
 export const ARRAY_PIPES: Type<PipeTransform>[] = [
   ChunkPipe,
@@ -78,6 +79,7 @@ export const ARRAY_PIPES: Type<PipeTransform>[] = [
   UniqPipe,
   UnzipPipe,
   WithoutPipe,
+  XorPipe,
   ZipPipe,
   ZipObjectPipe,
   ZipObjectDeepPipe
