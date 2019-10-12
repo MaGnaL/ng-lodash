@@ -1,5 +1,5 @@
-import { Pipe } from '@angular/core';
-import { HeadPipe } from './head.pipe';
+import {Pipe} from '@angular/core';
+import {HeadPipe} from './head.pipe';
 
 @Pipe({
   name: '_first'
