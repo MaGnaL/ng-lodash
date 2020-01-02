@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { PIPES } from './pipes/pipes';
+import {NgModule} from '@angular/core';
+import {PIPES} from './pipes/pipes';
 
 @NgModule({
   declarations: [...PIPES],
