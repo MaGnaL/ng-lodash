@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/ng-lodash-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -49,6 +50,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -129,6 +134,11 @@
           "options": {
             "tsConfig": "projects/ng-lodash/tsconfig.lib.json",
             "project": "projects/ng-lodash/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-lodash/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -142,10 +152,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "projects/ng-lodash/tsconfig.lib.json",
-              "projects/ng-lodash/tsconfig.spec.json"
-            ],
+            "tsConfig": ["projects/ng-lodash/tsconfig.lib.json", "projects/ng-lodash/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**"]
           }
         }
