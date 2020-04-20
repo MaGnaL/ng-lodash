@@ -1,6 +1,6 @@
 {
   "name": "@magnal/ng-lodash-demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": {
     "name": "Manuel Lang",
     "email": "code@manuellang.dev",
@@ -18,7 +18,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build+publish:lib": "npm run build -- --prod ng-utils && cd dist/ng-utils && npm publish --access public"
+    "build+publish:lib": "npm run build -- --prod ng-lodash && cd dist/ng-lodash && npm publish --access public"
   },
   "husky": {
     "hooks": {
