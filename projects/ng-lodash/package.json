@@ -1,6 +1,6 @@
 {
   "name": "@magnal/ng-lodash",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": {
     "name": "Manuel Lang",
     "email": "code@manuellang.dev",
@@ -12,8 +12,9 @@
     "url": "https://github.com/MaGnaL/ng-lodash.git"
   },
   "peerDependencies": {
-    "@angular/common": "^8.2.8",
-    "@angular/core": "^8.2.8",
-    "lodash": "~4.17.11"
+    "@angular/common": "^9.1",
+    "@angular/core": "^9.1",
+    "lodash": "^4.17",
+    "rxjs": "^6.5"
   }
 }
