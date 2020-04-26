@@ -18,7 +18,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build+publish:lib": "npm run build -- --prod ng-lodash && cd dist/ng-lodash && npm publish --access public"
+    "build:prod": "npm run build -- --prod ng-lodash",
+    "build:prod+publish:lib": "npm run build:pord && cd dist/ng-lodash && npm publish --access public"
   },
   "husky": {
     "hooks": {
