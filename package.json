@@ -1,5 +1,5 @@
 {
-  "name": "@magnal/ng-lodash-demo",
+  "name": "@magnal/ng-lodash-library",
   "version": "2.1.0",
   "author": {
     "name": "Manuel Lang",
@@ -14,7 +14,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build ng-lodash --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
