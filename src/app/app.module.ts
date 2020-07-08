@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { NgLodashModule } from '../../projects/ng-lodash/src/lib/ng-lodash.module';
+import {AppComponent} from './app.component';
+import {NgLodashModule} from '@magnal/ng-lodash';
 
 @NgModule({
   declarations: [AppComponent],
