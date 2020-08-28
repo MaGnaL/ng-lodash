@@ -12,12 +12,8 @@
     "url": "https://github.com/MaGnaL/ng-lodash.git"
   },
   "peerDependencies": {
-    "@angular/common": "^9.1",
-    "@angular/core": "^9.1",
-    "lodash": "^4.17",
-    "rxjs": "^6.5"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
+    "@angular/common": "^10.0",
+    "@angular/core": "^10.0",
+    "lodash": "^4.17"
   }
 }
