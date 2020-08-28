@@ -8,15 +8,6 @@
   "files": [],
   "references": [
     {
-      "path": "./src/tsconfig.app.json"
-    },
-    {
-      "path": "./src/tsconfig.spec.json"
-    },
-    {
-      "path": "./e2e/tsconfig.e2e.json"
-    },
-    {
       "path": "./projects/ng-lodash/tsconfig.lib.json"
     },
     {

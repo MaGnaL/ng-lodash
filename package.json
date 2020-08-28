@@ -1,6 +1,6 @@
 {
   "name": "@magnal/ng-lodash-library",
-  "version": "2.2.0-rc.1",
+  "version": "2.2.0-rc.2",
   "author": {
     "name": "Manuel Lang",
     "email": "code@manuel-lang.dev",
@@ -36,8 +36,8 @@
     "@angular/platform-browser": "~10.0.14",
     "@angular/platform-browser-dynamic": "~10.0.14",
     "@angular/router": "~10.0.14",
-    "core-js": "^2.6.11",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
+    "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },
@@ -46,13 +46,12 @@
     "@angular-devkit/build-ng-packagr": "~0.1000.8",
     "@angular/cli": "~10.0.8",
     "@angular/compiler-cli": "~10.0.14",
-    "@angular/language-service": "~10.0.14",
     "@magnal/prettier-config": "^2.2.1",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "^2.0.8",
-    "@types/lodash": "^4.14.150",
-    "@types/node": "^12.12.36",
-    "codelyzer": "^5.2.2",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/lodash": "^4.14.160",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
     "husky": "^4.2.5",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -65,8 +64,8 @@
     "prettier": "^2.1.1",
     "pretty-quick": "^3.0.0",
     "protractor": "~7.0.0",
-    "ts-node": "~7.0.0",
+    "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "^3.6.5"
+    "typescript": "~3.9.5"
   }
 }

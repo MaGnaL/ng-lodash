@@ -5,16 +5,15 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "module": "es2020",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
     "experimentalDecorators": true,
+    "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es5",
-    "typeRoots": ["node_modules/@types"],
+    "target": "es2015",
+    "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "@magnal/ng-lodash": ["projects/ng-lodash/src/public-api"]
+      "ng-lodash": ["dist/ng-lodash/ng-lodash", "dist/ng-lodash"]
     }
   }
 }

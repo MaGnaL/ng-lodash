@@ -1,6 +1,6 @@
 {
   "name": "@magnal/ng-lodash",
-  "version": "2.2.0-rc.1",
+  "version": "2.2.0-rc.2",
   "author": {
     "name": "Manuel Lang",
     "email": "code@manuel-lang.dev",
@@ -15,5 +15,8 @@
     "@angular/common": "^10.0",
     "@angular/core": "^10.0",
     "lodash": "^4.17"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }
