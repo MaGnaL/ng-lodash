@@ -3,8 +3,8 @@
   "version": "2.1.0",
   "author": {
     "name": "Manuel Lang",
-    "email": "code@manuellang.dev",
-    "url": "http://manuellang.dev"
+    "email": "code@manuel-lang.dev",
+    "url": "http://manuel-lang.dev"
   },
   "license": "MIT",
   "repository": {
@@ -18,8 +18,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "npm run build -- --prod ng-lodash",
-    "build:prod+publish:lib": "npm run build:prod && cd dist/ng-lodash && npm publish --access public"
+    "publish:latest": "cd dist/ng-lodash && yarn publish --access public",
+    "publish:next": "cd dist/ng-lodash && yarn publish --access public --tag next"
   },
   "husky": {
     "hooks": {
